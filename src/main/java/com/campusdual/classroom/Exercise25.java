@@ -25,11 +25,8 @@ public class Exercise25 {
     }
 
     public static void main(String[] args) {
-        //creamos una nueva coleccion con el metodo correspondiente
-        Stack<String> myCustomQueue = createStack();
 
-        //se imprime por consola los elementos eliminados
-        printAndEmptyStack(myCustomQueue);
+        printAndEmptyStack(createStack());
     }
 
 }
